@@ -13,7 +13,7 @@ include_once '../Import/php/restrict-access.php';
 //REDO ALL STUFF AGAIN
 //SET $RECOVER = TRUE
 
-$RECOVER = TRUE;
+$RECOVER = FALSE;
 
 if ($RECOVER === TRUE){
 	recover();
