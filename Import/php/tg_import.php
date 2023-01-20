@@ -4,7 +4,7 @@
 	$q = urldecode($_SERVER['REQUEST_URI']);
 
 	
-	preg_match('~Abicheck5/(.*?)/~', $q, $gebietarray);
+	preg_match('~/(.*?)/~', $q, $gebietarray);
 	$gebiet = $gebietarray[1];
 	//Wenn es kein Fragezeichen in $q gibt
 

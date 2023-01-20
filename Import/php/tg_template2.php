@@ -1,10 +1,4 @@
-<?php 
-	// PHP permanent URL redirection
-	if (strpos($_SERVER['REQUEST_URI'], 'tg_template2')){
-		header("Location: ../../", true, 301);
-		exit();
-	}
-
+<?php
 	$TG_info = mysqli_fetch_assoc(QuerySQL("SELECT * FROM themengebiete WHERE tg_name = ?;", [$gebiet], $parameterTypes = "s"));
 
 	//construct html elements
