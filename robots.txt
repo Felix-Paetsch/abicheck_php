@@ -1,0 +1,8 @@
+#place file at www.Abicheck.de (www.Abicheck.de/robots.txt)
+
+User-agent: *
+Disallow: /Dev-tools/
+Disallow: /Dev-toolsBackupt/
+Disallow: /Data/
+Disallow: /Import/php/
+Disallow: /Testing/

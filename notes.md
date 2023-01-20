@@ -1,0 +1,1 @@
+When setting up (how to redirect localhost to correct dir): `You can change Apaches httpd.conf by clicking (in xampp control panel) apache/conf/httpd.conf and adjust the entries for DocumentRoot and the corresponding Directory entry. Just Ctrl+F for "htdocs" and change the entries to your new path.`
